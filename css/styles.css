@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #efd6a5;
+  color: white;
+}
+.container{
+  margin: 0 auto;
+  width: 600px;
+  background-color: #5c94f2;
+  border: 5px solid white;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.separator{
+  height: 5px;
+  background-color: white;
+}
+.title{
+  text-align: center;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+}
+.message{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+.message1{
+  height: 30px;
+}
+.message2{
+  height: 75px;
+}
+.threeButtons{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  font-size: 20px;
+  text-align: center;
+  background-color: inherit;
+  color: white;
+  width: 150px;
+  font-family: 'Black Han Sans', sans-serif;
+  border: 5px solid white;
+  padding: 30px 20px;
+  margin: 20px 10px;
+}
+.btn:hover{
+  background-color: white;
+  color: #5c94f2;
+}
+.btn:active{
+  background-color: #5c94f2;
+  color: white;
+}
+.btn:focus{
+  outline:none;
+}
+.startButton{
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
+}
